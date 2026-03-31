@@ -2,6 +2,58 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <title>RollerZone Spain - Inicio</title>
+  <style>
+    body { margin:0; font-family:Arial; background:#2b2b2b; color:white; }
+    header { background:#333; padding:20px; text-align:center; border-bottom:3px solid #ffb300; }
+    nav { display:flex; justify-content:center; background:#3a3a3a; padding:10px; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#ffb300; }
+    .hero { background:url('portada.jpg') center/cover; height:300px; display:flex; align-items:flex-end; padding:20px; font-size:24px; font-weight:bold; }
+    .container { display:grid; grid-template-columns:2fr 1fr; gap:20px; padding:20px; }
+    .card { background:#3a3a3a; padding:15px; border-radius:10px; }
+    .sponsors { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; align-items:center; }
+    .sponsors img { width:100%; max-height:60px; object-fit:contain; filter:grayscale(100%); opacity:0.8; transition:0.3s; }
+    .sponsors img:hover { filter:grayscale(0%); opacity:1; transform:scale(1.1); }
+    footer { text-align:center; padding:20px; background:#333; border-top:2px solid #ffb300; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ROLLERZONE SPAIN</h1>
+  <p>Revista de Patinaje de Velocidad</p>
+</header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="noticias.html">Noticias</a>
+  <a href="eventos.html">Eventos</a>
+  <a href="entrevistas.html">Entrevistas</a>
+  <a href="revista.html">Revista</a>
+  <a href="patrocinadores.html">Patrocinadores</a>
+</nav>
+
+<div class="hero">Última noticia destacada del mundo del patinaje</div>
+
+<div class="container">
+  <div class="card">
+    <h2>Bienvenido a RollerZone</h2>
+    <p>Contenido de inicio, resumen de noticias y novedades.</p>
+  </div>
+  <div class="card">
+    <h2>Próximos eventos</h2>
+    <p>Calendario de competiciones y actividades destacadas.</p>
+  </div>
+</div>
+
+<footer>© RollerZone Spain</footer>
+
+</body>
+</html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
   <title>RollerZone Spain</title>
   <style>
     body {
