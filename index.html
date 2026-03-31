@@ -3,9 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <title>RollerZone Spain</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid red;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1a1a1a;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1547347298-4074fc3086f0') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      border-top: 2px solid red;
+    }
+  </style>
 </head>
+
 <body>
+
+<header>
   <h1>ROLLERZONE SPAIN</h1>
-  <p>Noticias de patinaje de velocidad</p>
+  <p>Revista de Patinaje de Velocidad</p>
+</header>
+
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#">Noticias</a>
+  <a href="#">Eventos</a>
+  <a href="#">Entrevistas</a>
+  <a href="#">Revista</a>
+</nav>
+
+<div class="hero">
+  Última noticia destacada del mundo del patinaje
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Noticias</h2>
+    <p>Aquí irán las noticias de patinaje de velocidad...</p>
+  </div>
+
+  <div class="card">
+    <h2>Próximos eventos</h2>
+    <p>Calendario de competiciones...</p>
+  </div>
+
+</div>
+
+<footer>
+  © RollerZone Spain
+</footer>
+
 </body>
 </html>
